@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Novaluz.github.io/rsschool-cv/
