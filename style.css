@@ -1,12 +1,19 @@
+* {
+    box-sizing: border-box; 
+  }
 body,
 html {
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;
-    font-family: 'PT Mono';
-    /* font-family: 'Myriad Pro Regular'; */
+    font-family: Roboto, sans-serif; 
     background-color: #fff;
     color: #202020;
+    scroll-behavior: smooth; 
 }
+
+  body {
+    margin: auto;
+  }
 ol,
 li {
     list-style: none;
@@ -17,10 +24,141 @@ a {
 }
 p{
     font-size: 18px;
-    font-family: 'PT Mono';
     font-weight: normal;
 }
-input, textarea, select, button{
-    border: none;
-    outline: none;
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-item {
+      margin-bottom: 1em;
+      padding: 0 2em 2em;
+  }
+
+  .nav-item a {
+      color: #405a3d;
+}
+
+
+.wrapper {
+    display: flex;
+}
+
+.image {
+    margin: 1em; 
+
+}
+
+.portrait {
+        border-radius: 1em;
+        border: solid #202020;
+}
+
+.contacts_bottom {
+    margin: 1em;
+    flex: 1;
+}
+
+.contacts_bottom > h2 {
+    position: relative;
+    top: -5%;
+}
+
+.list_contacts {
+    background: #ebebeb;
+    width: 50%;
+    padding: 0.5em;
+    position: relative;
+    top: -1.5%;
+
+}
+
+.list_contacts_item a {
+    color: #405a3d;
+}
+
+.summary-ins > h2 {
+    text-align: center;
+    background: #84a880;    
+}
+
+.summary-ins > p {
+    margin: 3em;  
+}
+
+.skills-ins > h2 {
+    text-align: center;
+    background: #84a880;
+}
+
+.list_skills {
+    display: flex; 
+    background: #8b7c7c;
+    justify-content: space-between;
+    width: 100%;
+}   
+
+.list_skills_item  {
+    width: 15%;
+}
+
+.list_skills_item > p {
+    font-size: 16px;
+}
+
+.code-ins > h2 {
+    text-align: center;
+    background: #84a880;    
+}
+
+.js-test {
+    display: block;
+    background: #ebebeb;
+    width: 50%;
+    margin: auto;
+    padding: 3em;
+    border: 0.1em solid #202020;
+}
+
+.projects-ins {
+    text-align: center;
+    margin: 5em;
+}
+
+.projects-ins > h2 {
+    text-align: center;
+    background: #84a880;    
+}
+.projects-ins a {
+color: #405a3d;
+}
+
+.wrapper-end {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em;
+    padding: 0 5em;
+
+}
+
+.education-ins > h2,
+.languages-ins > h2 {
+    padding-bottom: 2em; 
+}
+
+.list_education_item a {
+    color: #405a3d;
+}
+
+.footer-ins {   
+    display: flex; 
+    background: #ebebeb;
+    width: 100%;
+}
+
+.footer_item a {
+    color: #405a3d;
 }
